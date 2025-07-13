@@ -14,7 +14,7 @@ for imPath in myList:
 print(len(overlayList))
 
 header=overlayList[0]
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture(0)#If the webcam doesn't work (`VideoCapture(0)` returns black screen), try:cv2.VideoCapture(1)
 cap.set(3,1280)
 cap.set(4,720)
 drawColor=(255,0,0)
