@@ -1,4 +1,4 @@
-# Virtual Painter with Hand Tracking
+# Motion Painter with Hand Tracking
 
 This is a Python project that lets you draw on your webcam screen using hand gestures. It uses OpenCV for video processing and MediaPipe for real-time hand tracking.
 
