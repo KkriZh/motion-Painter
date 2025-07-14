@@ -51,7 +51,7 @@ while True:
         #4. if selection mode= two fingers are up
         if fingers[1] == 1 and fingers[2] == 1:
             xp,yp=0,0 # reset hand whenever hand is detected
-            print("selection mode")
+            #print("selection mode")
             #checking the click
             if y1<125:
                 if 150<x1<350:
@@ -71,7 +71,7 @@ while True:
         #5. if drawing mode= index finger is up
         elif fingers[1] == 1 and fingers[2] == 0:
             cv2.circle(img,(x1,y1),15,drawColor,cv2.FILLED)
-            print("drawing mode")
+            #print("drawing mode")
             if xp==0 and yp==0:
                 xp,yp=x1,y1
 
